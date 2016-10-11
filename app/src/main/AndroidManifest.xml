@@ -22,7 +22,10 @@
         <activity
             android:name=".selectDifficulty"
             android:label="@string/title_activity_select_difficulty"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".playGame" />
+        <activity android:name=".highScores" />
+        <activity android:name=".viewResults"></activity>
     </application>
 
 </manifest>

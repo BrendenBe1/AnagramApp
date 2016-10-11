@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         {
         Button buttonAbout = (Button) findViewById(R.id.buttonAbout);
         Button buttonPlay = (Button) findViewById(R.id.buttonPlay);
+        Button buttonHighScores = (Button) findViewById(R.id.buttonHighScore);
 
         buttonAbout.setOnClickListener(new View.OnClickListener()
         {
@@ -37,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v)
             {
                 startActivity(new Intent(getApplicationContext(), selectDifficulty.class));
+            }
+        });
+
+        buttonHighScores.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick (View v)
+            {
+                startActivity(new Intent(getApplicationContext(), highScores.class));
             }
         });
     }

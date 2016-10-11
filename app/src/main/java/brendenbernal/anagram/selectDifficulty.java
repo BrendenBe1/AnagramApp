@@ -51,6 +51,7 @@ public class selectDifficulty extends AppCompatActivity {
 
 
         Button buttonBackSelect = (Button) findViewById(R.id.buttonBackSelect);
+        Button buttonPlaySelect = (Button) findViewById(R.id.buttonPlaySelect);
 
         buttonBackSelect.setOnClickListener(new View.OnClickListener()
         {
@@ -58,6 +59,15 @@ public class selectDifficulty extends AppCompatActivity {
             public void onClick (View v)
             {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            }
+        });
+
+        buttonPlaySelect.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick (View v)
+            {
+                startActivity(new Intent(getApplicationContext(), playGame.class));
             }
         });
     }

@@ -30,10 +30,10 @@
         android:text="Back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginBottom="33dp"
         android:id="@+id/buttonBackAbout"
         android:background="@android:color/holo_blue_bright"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

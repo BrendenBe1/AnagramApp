@@ -17,9 +17,9 @@ public class highScores extends AppCompatActivity {
     }
 
     public void onClick() {
-        Button buttonBackSelect = (Button) findViewById(R.id.buttonBackSelect);
+        Button buttonBackHighScores = (Button) findViewById(R.id.buttonBackHighScores);
 
-        buttonBackSelect.setOnClickListener(new View.OnClickListener()
+        buttonBackHighScores.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick (View v)
